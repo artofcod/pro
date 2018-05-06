@@ -1,0 +1,267 @@
+/*Soumitra start*/
+main#Employee{
+      background: linear-gradient(rgba(89, 58, 109, 0.35),rgba(9, 0, 0, 0.38)) ,url('../images/signupE-bg.jpg');
+      background-size: cover;
+}
+main#Admin{
+      background: linear-gradient(rgba(57, 81, 123, 0.59),rgba(52, 85, 113, 0.49)) ,url('../images/signupA-bg.jpg');
+}
+.errors{
+    box-shadow: 0px 0px 5px red;
+    border-radius: 8px;
+    padding: 0px 8px;
+    background: rgba(255, 0, 0, 0.050980392156862744);
+    color: rgb(162, 6, 6);
+}
+
+/*swarup start*/
+#f{
+  width:100%;
+}
+nav{
+  width: 100%;
+}
+.header{
+      background-color: black;
+
+
+}
+.header a{
+  color:#cacaca;
+}
+.header a:hover{
+  color:white
+}
+.header a:focus{
+  color:#9de3ff
+}
+form input{
+  margin-left: -300px;
+}
+header img.logo{
+  max-width: 20%;
+}
+form button{
+  margin-left: 5px;
+}
+.nav-pbtn{
+  border:1px solid white;
+  border-radius: 5px;
+  color:white;
+  background-color: rgba(255, 255, 255, 0);
+  width:100px;
+  text-align: center;
+}
+.signup-frm{
+  background-color: #ececec;
+}
+main{
+  margin-top: 61px;
+  background-image: url('../images/signup-bg.jpg');
+  background-size: cover;
+}
+#a{
+  width:100%;
+  height: 550px;
+  background-position: center center;
+}
+#hero {
+    height:550px;
+    width:100%;
+
+}
+#hero div {
+    position:absolute;
+    z-index: 0;
+}
+#hero div.previous {
+    z-index: 1;
+}
+#hero div.current {
+    z-index: 2;
+}
+#sub{
+  background-color: #1268af;
+  color: white;
+}
+#sub:hover{
+  background-color: #157cd2;
+}
+#a{
+  width:100%;
+  height: 550px;
+  background-position: center center;
+}
+h3{
+  text-align: center;
+  padding-top: 40px;
+  font-family:;
+}
+#h1, #h2, #h4{
+  width:100%;
+  height: 200px;
+  margin-top: 40px;
+}
+#h1 , #h4{
+  width:400px;
+  height: 400px;
+}
+#h1 ,#h2, #h4{
+margin-top: 0px;
+
+}
+#h2{
+  width:315px;
+  height: 190px;
+}
+#h3{
+    width:100%;
+  height: 200px;
+  margin-top: 10px;
+}
+h2{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+
+}
+.left{
+  width:100%;
+  height: 650px;
+  background-color: rgba(78,78,78,0.29);
+  font-size: 30px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+#h3,#h2{
+  max-width: 315px;
+  margin-left:28px;
+}
+#loadingImage{
+  width:400px;
+  height: 400px;
+  float: right;
+background-color: blue;
+}
+.left ul {
+ list-style: none;
+}
+.left ul li a{
+  text-decoration: none;
+  color: white;
+  cursor: help;
+}
+.left ul li{
+  padding-top: 70px;
+}
+footer{
+
+  height: 340px;
+  background-color:black;
+}
+.b ul li a{
+text-decoration: none;
+color: white;
+}
+.col ul{
+  list-style: none;
+}
+.b h2{
+  margin-left: ;
+}
+.b{
+  display: inline-block;
+  width:200px;
+}
+footer ul li{
+text-align: center;
+margin-left: -50px;
+margin-top: 20px;
+}
+footer h2{
+  color: white;
+}
+.con .col{
+  width:50px;
+  height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px 00px 00px 5px;
+  border-radius: 10px;
+  background-color: rgba(78,78,78,0.29);
+
+}
+.col .a{
+  background-color: black;
+}
+.con .facebook{
+  margin-left: 115px;
+
+}
+.con .linkedin{
+margin-left: 115px;
+}
+.con{
+  margin-top: 40px;
+  display: inline-block;
+}
+.con .facebook li{
+  color: white;
+  font-size: 35px;
+  margin-top: 8px;
+  margin-left: -2px;
+}
+.con .google li{
+    color: white;
+  font-size: 35px;
+  margin-top: 6px;
+  margin-left: -5px;
+}
+.con .youtube li{
+    color: white;
+  font-size: 35px;
+  margin-top: 6px;
+  margin-left: -6px;
+}
+.con .linkedin li{
+    color: white;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: -6px;
+}
+.con .instagram li{
+    color: white;
+  font-size: 35px;
+  margin-top: 7px;
+  margin-left: -6px;
+}
+.con .twitter li{
+    color: white;
+  font-size: 35px;
+  margin-top: 7px;
+  margin-left: -6px;
+}
+.instagram{
+  margin-top: -10px;
+}
+#copy ul li a{
+color:white;
+display: inline;
+}
+#copy ul li{
+  float: left;
+  list-style: none;
+  margin: 35px 00 20px 50px;
+}
+#copy ul{
+  margin-left: 100px;
+}
+#copy, .a {
+  background-color: rgb(50,50,50);
+}
+.logo1{
+  width: 150px;
+  margin: 10px 00 10px 150px;
+}
+/*--swarup end--*/
+-*/
