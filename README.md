@@ -5,3 +5,4 @@
 > 3. create a database in phpmyadmin with the name of **learn**
 > 4. import the **learn.sql** file from the folder into the database youhave created
 > 5. run in browser
+
