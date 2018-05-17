@@ -71,7 +71,6 @@
     }
 
     //properties which have database columns, excluding u_id(unsanatised)
-    protected function attribuites(){
       $attribuites = [];
       foreach (self::$db_columns as $column) {
         if($column == 'u_id'){continue;}
