@@ -33,6 +33,7 @@
   require_once(PRIVATE_PATH.'\class\db.class.php');
   require_once(PRIVATE_PATH.'\class\user.signup.class.php');
   require_once(PRIVATE_PATH.'\class\user.login.class.php');
+  require_once(PRIVATE_PATH.'\class\emp.file_process.class.php');
 
   $database = db_connect();
   db::set_db($database);
