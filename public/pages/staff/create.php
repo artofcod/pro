@@ -14,7 +14,7 @@
 		$args['f_temp_name']= isset($_FILES['filex']['tmp_name']) ? $_FILES['filex']['tmp_name'] : NULL ;
 		$args['f_error']=isset($_FILES['filex']['error']) ? $_FILES['filex']['error'] : NULL;
 		$fp = new file_process($args);
-		$fp->view();
+		echo $fp->save();
 
 	}
 	//print_r($args);
