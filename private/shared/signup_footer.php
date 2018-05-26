@@ -1,4 +1,4 @@
-<footer class="row ">
+<footer class="row footer">
     	<div class="col b  ">
     		<h2>About Us</h2>
     		<ul>

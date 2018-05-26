@@ -22,10 +22,10 @@
             <span class="nav-brand nav-item">
             <a href="index.php"><img class="img-fluid logo" src="<?php echo url_for_i('images/logo.png');?>" alt="logo of the site"></a>
             </span>
-            <a class="nav-item nav-link align-self-center" href="#">Library</a>
-            <a class="nav-item nav-link align-self-center" href="#">Ecomarce</a>
-            <a class="nav-item nav-link align-self-center" href="#">Earn</a>
-            <a class="nav-item nav-link align-self-center" href="#">Help</a>
+            <a class="nav-item nav-link align-self-center" href="<?php echo url_for_i('pages/library/library.php');?>">Library</a>
+            <!-- <a class="nav-item nav-link align-self-center" href="<?php echo url_for_i('pages/student/student_profile.php');?>">Ecomarce</a> -->
+            <!-- <a class="nav-item nav-link align-self-center" href="#">Earn</a> -->
+            <a class="nav-item nav-link align-self-center" href="<?php echo url_for_i('pages/help/help.php')?>">Help</a>
             <a class="nav-item nav-link align-self-center nav-pbtn mr-3 ml-2" href="<?php echo url_for_i('pages/authentication/signup.php');?>">Signup</a>
             <a class="nav-item nav-link align-self-center nav-pbtn" href="<?php echo url_for_i('pages/authentication/login.php');?>">Login</a>
           </div>
